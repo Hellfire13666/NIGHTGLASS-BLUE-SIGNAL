@@ -1,34 +1,85 @@
-## 🚀 QUICK START · ONE PASTE
+<div align="center">
 
-From this extracted tool folder:
+![NIGHTGLASS // BLUE SIGNAL](assets/NIGHTGLASS-REPOSITORY-BANNER.jpg)
+
+# NIGHTGLASS // BLUE SIGNAL
+
+### GLITCHBYTE PHANTOM LABS
+
+**Public-source Facebook reference research · Live terminal diagnostics · Local evidence review**
+
+[**Quick start**](#quick-start) · [**Explore the modules**](#inside-nightglass) · [**Commands**](COMMANDS.md) · [**Privacy**](#privacy--accuracy)
+
+</div>
+
+---
+
+## Quick start
+
+NIGHTGLASS is a Python terminal toolkit. Download or clone the repository, open a terminal **inside its folder**, then run:
 
 ```bash
-python3 COMMAND_CENTER.py
+python3 -B COMMAND_CENTER.py
 ```
 
-# NIGHTGLASS BLACKGLASS v2.3.0 · Page Research Fusion
+Or on Linux:
 
-Preserves all 01–25 commands and the permanent help footer. Repairs the version banner to match this package. Includes smart source classification (Page/profile references are not posts), Source Guard, and Photo Post Fusion. This is a new separate installation. No data is migrated from old versions and old installations are unchanged. No Facebook requests on startup.
-
-## New: 17 → 6, Page Research Fusion
-
-Save a Facebook Page reference with 15, then provide an independent, permitted local post CSV/JSON/JSONL export through 17 → 6. Exact URL-path associations are labeled unverified. No live collection or Facebook requests. All 01–25 commands and Source Guard remain. Existing installations are unchanged.
-
-
-## Artwork
-
-![NIGHTGLASS BLUE SIGNAL](assets/NIGHTGLASS-REPOSITORY-BANNER.jpg)
-
-The social sharing artwork is `assets/NIGHTGLASS-SOCIAL-PREVIEW-1280x640.jpg` (upload manually under GitHub repository Settings > General > Social preview).
-
-## Running the command center
-
-```sh
-./RUN.sh
+```bash
+sh RUN.sh
 ```
 
-Python 3. The examples are fictional. Public HTML references, source checking, and offline imports must not be represented as authenticated Facebook posts or private account access.
+The Command Center retains **01–25** menu options and its help footer. Type **25**, **HELP**, or **?** for guidance.
 
-## Privacy
+## Inside NIGHTGLASS
 
-Never publish local reports, private vault contents, sessions, cookies, credentials or local backups. These are not included in this release.
+| Module | What it does |
+| --- | --- |
+| **Command Center** | Navigate the original 25-option terminal menu |
+| **Link Fusion Favorites** | Inspect and print discoverable links and references from publicly accessible HTML |
+| **Smart Link Fusion** | Classify supplied Facebook search, page, profile, and post-shaped URLs |
+| **Public Post Discovery** | Find *references* exposed in accessible public HTML, without claiming a complete feed |
+| **Evidence Inspector** | Review accessible metadata, redirects, and source-status indicators |
+| **Post Hunter** | Work with authorized sources and locally imported CSV/JSON/JSONL records |
+| **Page Research Fusion** | Compare saved page references against independently supplied local records |
+| **Photo Post Fusion** | Organize supported imported photo/post records |
+| **Source Guard** | Report source limits and avoid misleading results |
+
+> **Source accuracy matters.** A public link, metadata tag, or post-shaped URL is *not* proof that the post's contents were retrieved or verified. Facebook may return a login page instead of requested content.
+
+## See the artwork
+
+The cover image above is stored in [`assets/NIGHTGLASS-REPOSITORY-BANNER.jpg`](assets/NIGHTGLASS-REPOSITORY-BANNER.jpg).
+
+![NIGHTGLASS social preview](assets/NIGHTGLASS-SOCIAL-PREVIEW-1280x640.jpg)
+
+The separate social preview is [`assets/NIGHTGLASS-SOCIAL-PREVIEW-1280x640.jpg`](assets/NIGHTGLASS-SOCIAL-PREVIEW-1280x640.jpg). GitHub's social-preview setting is configured separately under **Settings → General → Social preview**.
+
+## Privacy & accuracy
+
+- Use only public pages, permitted exports, or sources you are authorized to inspect.
+- Results from public HTML may be incomplete. Clearly distinguish live observations from offline imports, demos, and unverified references.
+- Do not publish private reports, local vault contents, browser sessions, cookies, access tokens, credentials, or backups.
+- Examples are fictional; they are not real-person findings.
+- This release does not provide authenticated access to private Facebook data.
+
+## Repository guide
+
+- [`COMMAND_CENTER.py`](COMMAND_CENTER.py) — main launcher
+- [`POST_HUNTER.py`](POST_HUNTER.py) — post research and imported-record workflows
+- [`NIGHTGLASS_LINK_FUSION_FAVORITES.py`](NIGHTGLASS_LINK_FUSION_FAVORITES.py) — public-link favorite recipes
+- [`EVIDENCE_INSPECTOR.py`](EVIDENCE_INSPECTOR.py) — evidence reference diagnostics
+- [`COMMANDS.md`](COMMANDS.md) — menu guidance
+- [`tests/`](tests) — automated tests
+- [`examples/`](examples) — fictional examples
+
+---
+
+<div align="center">
+
+**NIGHTGLASS // BLUE SIGNAL**
+
+*Bring the source. Check the signal. Keep the evidence honest.*
+
+**GLITCHBYTE PHANTOM LABS**
+
+</div>
