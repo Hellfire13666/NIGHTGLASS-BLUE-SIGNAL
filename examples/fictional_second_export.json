@@ -1,0 +1,16 @@
+[
+  {
+    "id": "demo-101",
+    "author": "Demo Account A",
+    "text": "Sample public Page post comment. FICTIONAL DATA.",
+    "created_at": "2026-10-29T10:00:00Z",
+    "url": "https://example.org/post/demo",
+    "source": "fictional_second"
+  },
+  {
+    "id": "demo-999",
+    "author": "Demo Account D",
+    "text": "New fictional comment.",
+    "created_at": "2026-10-31T09:00:00Z"
+  }
+]
